@@ -181,12 +181,21 @@ body.mobile-menu-activated .mobile-menu-btn > span:after {
   color: #f9af2e;
 }
 
+section.page-block {
+  padding: 100px 0;
+}
 section.page-block .block-image {
   max-width: 400px;
   margin: 0 auto 30px;
 }
 section.page-block:nth-child(odd) {
   background-color: #f5f5f5;
+}
+
+.table-content a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .arrow-bg {
@@ -348,7 +357,6 @@ section.page-block:nth-child(odd) {
 }
 .feature-box h5 {
   margin-bottom: 15px;
-  color: black;
 }
 
 .footer {
