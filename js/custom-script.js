@@ -31,7 +31,11 @@ jQuery(document).ready(function () {
     //Back to Button
     var offset = 250;
     var duration = 300;
+ 
     jQuery(window).scroll(function () {
+        setTimeout(function () {
+            jQuery('.back-to-top').fadeOut(duration);
+        }, 10000)
         if (jQuery(this).scrollTop() > offset) {
             jQuery('.back-to-top').fadeIn(duration);
         } else {
