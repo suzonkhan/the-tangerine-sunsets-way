@@ -453,3 +453,11 @@ section {
 .footer {
   background-color: $bradYellow;
 }
+
+.accordion {
+  .accordion-button:not(.collapsed) {
+    color: $bradYellow;
+    background-color: lighten($bradYellow, 40%);
+    box-shadow: inset 0 -1px 0 lighten($bradYellow, 30%);
+  }
+}
